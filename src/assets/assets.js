@@ -1,7 +1,7 @@
 import logo from './logo.png'
 import logo2 from './logo2.png'
 import MyDigitalEra from './MyDigitalEra.png'
-
+import project from './project.png'
 import whatsapp from './whatsapp.png'
 import gmail from './gmail.png'
 import instagram from './instagram.png'
@@ -14,6 +14,7 @@ import ExrnaRare from './ExrnaRare.png'
 export const assets = {
     logo,
     logo2,
+    project,
     whatsapp,
     gmail,
     instagram,
