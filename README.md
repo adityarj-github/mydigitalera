@@ -1,8 +1,32 @@
-# React + Vite
+# 🌐 MyDigitalEra - Digital Marketing & Web Solutions Agency
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **MyDigitalEra**, where creativity meets results. We specialize in crafting powerful digital experiences and helping businesses grow online. Whether it's web development, digital marketing, or branding — we are your one-stop digital partner.
 
-Currently, two official plugins are available:
+## 🚀 Our Services
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🌍 **Website Development**
+  - Responsive, SEO-friendly websites
+  - E-commerce & Business sites (WordPress, React, etc.)
+  
+- 📱 **App Development**
+  - Android & iOS solutions
+  - Cross-platform apps
+  
+- 📣 **Digital Marketing**
+  - Google Ads (PPC)
+  - Meta Ads (Facebook & Instagram)
+  - Social Media Strategy
+  
+- 🎨 **Graphics & Branding**
+  - Logo design
+  - Social media creatives
+  
+- 🔍 **SEO & Performance**
+  - On-page & off-page optimization
+  - Monthly performance reports
+  
+- 🧠 **Strategy Consultation**
+  - Growth hacking
+  - Business digitalization
+
+---
