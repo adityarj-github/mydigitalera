@@ -9,6 +9,7 @@ import sambodhi from './Sambodhi.png'
 import VastuviharNepal from './VastuviharNepal.png'
 import Exrna from './Exrna.png'
 import ExrnaRare from './ExrnaRare.png'
+import facebook from './facebook.png'
 
 export const assets = {
     logo,
@@ -17,7 +18,8 @@ export const assets = {
     gmail,
     instagram,
     linkedin,
-    MyDigitalEra
+    MyDigitalEra,
+    facebook
 }
 
 // project data
@@ -86,78 +88,91 @@ export const whyChooseUs = [
 // testimonial data
 export const testimonialsData = [
     {
-        "name": "Rajesh Kumar",
-        "title": "CEO, TechnoInnovators",
-        "comment": "The web development services provided by this agency were outstanding. They understood our vision and delivered a stunning, functional website. Highly recommended!",
-        "image": "https://example.com/images/rajesh-kumar.jpg"
+        name: "Rajesh Kumar",
+        title: "CEO, TechnoInnovators",
+        comment: "The web development services provided by this agency were outstanding. They understood our vision and delivered a stunning, functional website. Highly recommended!",
+        image: "https://example.com/images/rajesh-kumar.jpg",
+        location: "Bangalore, Karnataka"
     },
     {
-        "name": "Priya Sharma",
-        "title": "Founder, E-commerce Ventures",
-        "comment": "This team helped us create an exceptional e-commerce website. Their attention to detail and ability to meet deadlines was truly impressive. Our online sales have increased significantly!",
-        "image": "https://example.com/images/priya-sharma.jpg"
+        name: "Priya Sharma",
+        title: "Founder, E-commerce Ventures",
+        comment: "This team helped us create an exceptional e-commerce website. Their attention to detail and ability to meet deadlines was truly impressive. Our online sales have increased significantly!",
+        image: "https://example.com/images/priya-sharma.jpg",
+        location: "Mumbai, Maharashtra"
     },
     {
-        "name": "Arun Patel",
-        "title": "Marketing Director, MediaX",
-        "comment": "We’ve worked with many agencies before, but this one exceeded our expectations. The website they built for us is fast, user-friendly, and visually striking.",
-        "image": "https://example.com/images/arun-patel.jpg"
+        name: "Arun Patel",
+        title: "Marketing Director, MediaX",
+        comment: "We’ve worked with many agencies before, but this one exceeded our expectations. The website they built for us is fast, user-friendly, and visually striking.",
+        image: "https://example.com/images/arun-patel.jpg",
+        location: "Ahmedabad, Gujarat"
     },
     {
-        "name": "Anjali Verma",
-        "title": "Co-Founder, GreenTech Solutions",
-        "comment": "Our website looks fantastic, thanks to this agency! They were highly communicative and made sure we were involved at every step. We couldn’t be happier with the final result.",
-        "image": "https://example.com/images/anjali-verma.jpg"
+        name: "Anjali Verma",
+        title: "Co-Founder, GreenTech Solutions",
+        comment: "Our website looks fantastic, thanks to this agency! They were highly communicative and made sure we were involved at every step. We couldn’t be happier with the final result.",
+        image: "https://example.com/images/anjali-verma.jpg",
+        location: "Chandigarh, Punjab"
     },
     {
-        "name": "Vikram Desai",
-        "title": "Director of Operations, Desai Enterprises",
-        "comment": "The team provided excellent web development services. They created a site that is not only visually appealing but also highly functional. It was an absolute pleasure working with them.",
-        "image": "https://example.com/images/vikram-desai.jpg"
+        name: "Vikram Desai",
+        title: "Director of Operations, Desai Enterprises",
+        comment: "The team provided excellent web development services. They created a site that is not only visually appealing but also highly functional. It was an absolute pleasure working with them.",
+        image: "https://example.com/images/vikram-desai.jpg",
+        location: "Surat, Gujarat"
     },
     {
-        "name": "Neha Reddy",
-        "title": "Founder, Reddy’s Fashion Hub",
-        "comment": "I was blown away by the website they designed for my fashion business. It’s sleek, modern, and very easy for customers to navigate. The team really understands what’s needed for success in e-commerce.",
-        "image": "https://example.com/images/neha-reddy.jpg"
+        name: "Neha Reddy",
+        title: "Founder, Reddy’s Fashion Hub",
+        comment: "I was blown away by the website they designed for my fashion business. It’s sleek, modern, and very easy for customers to navigate. The team really understands what’s needed for success in e-commerce.",
+        image: "https://example.com/images/neha-reddy.jpg",
+        location: "Hyderabad, Telangana"
     },
     {
-        "name": "Sandeep Joshi",
-        "title": "CEO, Joshi Enterprises",
-        "comment": "This agency transformed our outdated website into a modern, professional online presence. Their expertise and creativity have truly made a difference in how we connect with our clients.",
-        "image": "https://example.com/images/sandeep-joshi.jpg"
+        name: "Sandeep Joshi",
+        title: "CEO, Joshi Enterprises",
+        comment: "This agency transformed our outdated website into a modern, professional online presence. Their expertise and creativity have truly made a difference in how we connect with our clients.",
+        image: "https://example.com/images/sandeep-joshi.jpg",
+        location: "Pune, Maharashtra"
     },
     {
-        "name": "Shivani Mehta",
-        "title": "Creative Director, Mehta Design Studio",
-        "comment": "The team did an amazing job designing a website that matches the vision of our design studio. They were very receptive to feedback and worked with us to get the look just right.",
-        "image": "https://example.com/images/shivani-mehta.jpg"
+        name: "Shivani Mehta",
+        title: "Creative Director, Mehta Design Studio",
+        comment: "The team did an amazing job designing a website that matches the vision of our design studio. They were very receptive to feedback and worked with us to get the look just right.",
+        image: "https://example.com/images/shivani-mehta.jpg",
+        location: "Jaipur, Rajasthan"
     },
     {
-        "name": "Ravi Gupta",
-        "title": "Founder, Gupta Realty",
-        "comment": "Thanks to this agency, our real estate website has a sleek new design and is now fully responsive. The customer support is top-notch, and they continue to support us after the launch.",
-        "image": "https://example.com/images/ravi-gupta.jpg"
+        name: "Ravi Gupta",
+        title: "Founder, Gupta Realty",
+        comment: "Thanks to this agency, our real estate website has a sleek new design and is now fully responsive. The customer support is top-notch, and they continue to support us after the launch.",
+        image: "https://example.com/images/ravi-gupta.jpg",
+        location: "Lucknow, Uttar Pradesh"
     },
     {
-        "name": "Sonia Kapoor",
-        "title": "Marketing Head, Kapoor Enterprises",
-        "comment": "The web team did an excellent job on our website overhaul. They were able to create a platform that’s both aesthetically pleasing and user-friendly. Our traffic has significantly increased since the relaunch!",
-        "image": "https://example.com/images/sonia-kapoor.jpg"
+        name: "Sonia Kapoor",
+        title: "Marketing Head, Kapoor Enterprises",
+        comment: "The web team did an excellent job on our website overhaul. They were able to create a platform that’s both aesthetically pleasing and user-friendly. Our traffic has significantly increased since the relaunch!",
+        image: "https://example.com/images/sonia-kapoor.jpg",
+        location: "New Delhi, Delhi"
     },
     {
-        "name": "Amit Saxena",
-        "title": "Managing Director, Saxena Technologies",
-        "comment": "We’re extremely pleased with the website the team built for us. It’s sleek, optimized for performance, and really easy to manage. Their professionalism and timely delivery were outstanding.",
-        "image": "https://example.com/images/amit-saxena.jpg"
+        name: "Amit Saxena",
+        title: "Managing Director, Saxena Technologies",
+        comment: "We’re extremely pleased with the website the team built for us. It’s sleek, optimized for performance, and really easy to manage. Their professionalism and timely delivery were outstanding.",
+        image: "https://example.com/images/amit-saxena.jpg",
+        location: "Indore, Madhya Pradesh"
     },
     {
-        "name": "Nina Sharma",
-        "title": "Founder, Nina’s Beauty Studio",
-        "comment": "I’m very happy with the website they developed for my beauty studio. The website is beautiful, easy to navigate, and has helped us reach new clients. Highly recommend this team!",
-        "image": "https://example.com/images/nina-sharma.jpg"
+        name: "Nina Sharma",
+        title: "Founder, Nina’s Beauty Studio",
+        comment: "I’m very happy with the website they developed for my beauty studio. The website is beautiful, easy to navigate, and has helped us reach new clients. Highly recommend this team!",
+        image: "https://example.com/images/nina-sharma.jpg",
+        location: "Kolkata, West Bengal"
     }
-]
+];
+
 
 // process 
 export const process = [

@@ -51,7 +51,13 @@ const Footer = () => {
                             <img className='w-10 h-10 hover:scale-105 cursor-pointer' src={assets.instagram} alt="" />
                         </a>
 
-                        {/* <img className='w-10 h-10 hover:scale-105 cursor-pointer' src={assets.linkedin} alt="" /> */}
+                        <a href="https://www.linkedin.com/company/mydigitalera" target="_blank">
+                            <img className='w-10 h-10 hover:scale-105 cursor-pointer' src={assets.linkedin} alt="" />
+                        </a>
+
+                        <a href="https://www.facebook.com/people/My-Digital-Era/61578224732690/" target="_blank">
+                            <img className='w-10 h-10 hover:scale-105 cursor-pointer' src={assets.facebook} alt="" />
+                        </a>
                     </div>
 
                     <a href="mailto:info.mydigitalera@gmail.com?subject=Contact%20Request&body=Hi%2C%20I%20want%20to%20get%20in%20touch" target="_blank">

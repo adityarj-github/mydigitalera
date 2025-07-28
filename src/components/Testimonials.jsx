@@ -24,7 +24,8 @@ const Testimonials = () => {
                     {/* <img className='w-10 h-10' src={item.image} alt="" /> */}
                     <div className='flex flex-col gap-1'>
                       <h2 className='text-sm'>{item.name}</h2>
-                      <p className='text-[10px] text-[#686868]'>{item.title}</p>
+                      {/* <p className='text-[10px] text-[#686868]'>{item.title}</p> */}
+                      <p className='text-[10px] text-[#686868]'>{item.location}</p>
                     </div>
                   </div>
                   <p className='text-sm mt-1'>{item.comment}</p>
@@ -37,7 +38,8 @@ const Testimonials = () => {
                     {/* <img className='w-10 h-10' src={item.image} alt="" /> */}
                     <div className='flex flex-col gap-1'>
                       <h2 className='text-sm'>{item.name}</h2>
-                      <p className='text-[10px] text-[#686868]'>{item.title}</p>
+                      {/* <p className='text-[10px] text-[#686868]'>{item.title}</p> */}
+                      <p className='text-[10px] text-[#686868]'>{item.location}</p>
                     </div>
                   </div>
                   <p className='text-sm'>{item.comment}</p>
