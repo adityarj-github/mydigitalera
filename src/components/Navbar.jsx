@@ -17,7 +17,7 @@ const Navbar = ({ onOpenPopup }) => {
             <img
               className='w-10 rounded-[50%] object-contain cursor-pointer'
               src={assets.MyDigitalEra}
-              alt="Logo"
+              alt="MyDigitalEra - Crafting Stunning Websites & App mydigitalera logo"
             />
           </Link>
         </div>

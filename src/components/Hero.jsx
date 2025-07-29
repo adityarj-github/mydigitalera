@@ -30,9 +30,9 @@ const Hero = ({ onOpenPopup }) => {
                     </button>
                 </a>
 
-                {/*  Google form button  */}
+                {/*  Google form button end */}
 
-                <p className='text-[#686868] mx-auto max-w-xl text-center mt-8'>Fixed Prices. No long-term contracts.</p>
+                <h5 className='text-[#686868] mx-auto max-w-xl text-center mt-8'>Fixed Prices. No long-term contracts.</h5>
 
             </motion.div>
         </section >

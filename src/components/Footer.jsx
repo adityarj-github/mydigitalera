@@ -14,7 +14,7 @@ const Footer = () => {
                 {/* First Row */}
                 <div className='flex flex-col bottom-0 mx-auto sm:m-0'>
                     <div className='gap-2'>
-                        <a href=""><img src={assets.MyDigitalEra} alt="" className='w-20' />
+                        <a href=""><img src={assets.MyDigitalEra} alt="MyDigitalEra - Crafting Stunning Websites & App mydigitalera logo" className='w-20' />
 
                             <h1 className='font-semibold text-xl mb-4 cursor-pointer'>MyDigital<span className='text-[#ff4432]'>Era</span>.</h1></a>
                         {/* <p class="font-semibold">We’re excited to help you grow!</p> */}
