@@ -32,10 +32,9 @@ const Hero = ({ onOpenPopup }) => {
 
                     {/* Stars & Text */}
                     <div>
-                        <div className="text-yellow-400 text-sm">
-                            ⭐⭐⭐⭐⭐
-                        </div>
-                        <div className="text-sm font-medium text-white">12+ Trusted and Happy Customer</div>
+                        <div className="text-xl">🧑‍💻</div>
+                        <div className="text-sm font-medium text-white">12+ Brands Scaled with Us</div>
+                         <div className="text-xs text-gray-400">And Growing Daily</div>
                     </div>
                 </div>
             </motion.div>
