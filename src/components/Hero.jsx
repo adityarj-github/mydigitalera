@@ -9,6 +9,41 @@ const Hero = ({ onOpenPopup }) => {
                 transition={{ duration: 1.5 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
+                className="flex justify-center items-center">
+                <div className="flex justify-center items-center gap-4 bg-[#121212] p-4 rounded-lg w-fit shadow-md mt-6">
+                    {/* Overlapping Avatars */}
+                    <div className="flex -space-x-3">
+                        <img
+                            src="https://mockmind-api.uifaces.co/content/cartoon/25.jpg"
+                            alt="user1"
+                            className="w-10 h-10 rounded-full border-2 border-white"
+                        />
+                        <img
+                            src="https://mockmind-api.uifaces.co/content/cartoon/4.jpg"
+                            alt="user2"
+                            className="w-10 h-10 rounded-full border-2 border-white"
+                        />
+                        <img
+                            src="https://mockmind-api.uifaces.co/content/cartoon/19.jpg"
+                            alt="user3"
+                            className="w-10 h-10 rounded-full border-2 border-white"
+                        />
+                    </div>
+
+                    {/* Stars & Text */}
+                    <div>
+                        <div className="text-yellow-400 text-sm">
+                            ⭐⭐⭐⭐⭐
+                        </div>
+                        <div className="text-sm font-medium text-white">12+ Trusted and Happy Customer</div>
+                    </div>
+                </div>
+            </motion.div>
+            <motion.div
+                initial={{ opacity: 0, y: 100 }}
+                transition={{ duration: 1.5 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
                 className='flex flex-col justify-center mt-12 mx-auto items-center'>
                 <h1 className='text-4xl md:text-5xl lg:text-7xl font-bold items-center text-center leading-none'>We build websites that <br /> convert  <span className='text-[#ff4432]'>visitors</span> into <span className='text-[#ff4432]'>customers.</span></h1>
                 <p className='text-[#686868] text-sm md:text-xl mx-auto max-w-xl md:max-w-2xl text-center mt-5'>High-converting websites designed with strategic copy and seamless development to attract ready-to-buy customers, turning visitors into loyal clients and driving growth.</p>
