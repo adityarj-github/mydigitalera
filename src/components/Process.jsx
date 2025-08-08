@@ -11,7 +11,7 @@ const Process = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }} className='flex flex-col items-center justify-center'>
                 <div className='text-4xl md:text-4xl lg:text-5xl mb-0 lg:mb-4 mt-12 mx-auto font-semibold text-center'>
-                    <h2>Our <span className=' text-[#ff4432]'>3-Step</span> process.</h2>
+                    Our <span className="text-[#ff4432]">3-Step</span> Process to Growth 🚀
                 </div>
                 <div className='flex items-start justify-between p-5 gap-4 mt-3'>
                     {

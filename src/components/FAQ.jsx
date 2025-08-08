@@ -28,7 +28,7 @@ const FAQ = () => {
                 {faq.question}
               </button>
               {open === index && (
-                <div className="mt-2 text-sm sm:text-lg text-[#ffffff80]">{faq.answer}</div>
+                <div className="mt-2 text-xs sm:text-md font-normal text-[#ffffff80]">{faq.answer}</div>
               )}
             </div>
           ))}

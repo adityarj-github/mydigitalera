@@ -53,37 +53,38 @@ export const projectData = [
 
 // why us
 export const whyChooseUs = [
-    {
-        "title": "Innovative Designs",
-        "description": "We blend creativity with functionality, delivering stunning interiors tailored to your style and needs.",
-        "icon": "🎨"
-    },
-    {
-        "title": "Expertise & Experience",
-        "description": "Our team of skilled designers brings years of industry experience to craft spaces that inspire.",
-        "icon": "🏆"
-    },
-    {
-        "title": "Personalized Approach",
-        "description": "Every project is unique, and we ensure our designs reflect your personality and lifestyle.",
-        "icon": "🤝"
-    },
-    {
-        "title": "Quality & Precision",
-        "description": "We use the finest materials and meticulous attention to detail to create flawless interiors.",
-        "icon": "📐"
-    },
-    {
-        "title": "End-to-End Solutions",
-        "description": "From concept to completion, we manage every step to provide a seamless and stress-free experience.",
-        "icon": "🔄"
-    },
-    {
-        "title": "Customer-Centric Service",
-        "description": "Your satisfaction is our priority. We listen, collaborate, and bring your vision to life.",
-        "icon": "📞"
-    }
-]
+  {
+    icon: "🎨",
+    title: "Innovative Designs",
+    description: "Creative and functional designs tailored to your brand and business goals."
+  },
+  {
+    icon: "🏆",
+    title: "Proven Expertise",
+    description: "Years of experience delivering successful web, app, and digital marketing solutions."
+  },
+  {
+    icon: "🤝",
+    title: "Personalized Strategy",
+    description: "We craft custom digital solutions that align with your unique vision and audience."
+  },
+  {
+    icon: "📐",
+    title: "Quality & Precision",
+    description: "We ensure pixel-perfect development with high-performance standards."
+  },
+  {
+    icon: "🔄",
+    title: "Complete Digital Services",
+    description: "From design to deployment, we handle every step of your digital journey."
+  },
+  {
+    icon: "📞",
+    title: "Dedicated Support",
+    description: "Ongoing client support and maintenance to ensure long-term success."
+  }
+];
+
 
 // testimonial data
 export const testimonialsData = [
@@ -149,22 +150,23 @@ export const testimonialsData = [
 
 // process 
 export const process = [
-    {
-        "step": 1,
-        "title": "Consult",
-        "desc": "We gather client requirements, understand their goals, and provide expect recommendations.",
-    },
-    {
-        "step": 2,
-        "title": "Design",
-        "desc": "We create wireframes, prototypes, and designs based on the client's vision.",
-    },
-    {
-        "step": 3,
-        "title": "Deliver",
-        "desc": "We develop, test, deploy, and provide post-launch support for the website.",
-    }
-]
+  {
+    step: 1,
+    title: "Plan",
+    desc: "We consult, understand goals, and craft a smart digital strategy.",
+  },
+  {
+    step: 2,
+    title: "Create",
+    desc: "We design websites, apps, and marketing assets with precision.",
+  },
+  {
+    step: 3,
+    title: "Grow",
+    desc: "We run ads, optimize SEO, and support your digital growth.",
+  }
+];
+
 
 export const Testimonialsdata = [
     {
@@ -299,33 +301,45 @@ export const pricing = [
 
 // FAQ
 export const faqs = [
-    {
-        question: "Who's behind MyDigitalEra ?",
-        answer: 'Hi, We are a team with years of experience in building custom websites that transform brands.',
-    },
-    {
-        question: "What if I'm not happy with the results ?",
-        answer: 'We offer a satisfation guarantee.',
-    },
-    {
-        question: 'How quickly I will receive my project ?',
-        answer: 'We deliver landing pages within 5 - 7 days and full websites in under 15 days.',
-    },
-    {
-        question: 'Can I get a refund ?',
-        answer: 'We are unable to provide refunds as we allocate dedicated time and resources to each client.',
-    },
-]
+  {
+    question: "Who runs MyDigitalEra?",
+    answer: "A skilled team of web developers, SEO specialists, and marketing experts helping brands grow online.",
+  },
+  {
+    question: "What if I don’t like the results?",
+    answer: "We offer revisions to ensure you're satisfied with the final outcome.",
+  },
+  {
+    question: "How fast is project delivery?",
+    answer: "Landing pages take 5–7 days, full websites are delivered in under 15 days.",
+  },
+  {
+    question: "Do you offer post-launch support?",
+    answer: "Yes, we provide ongoing technical support and maintenance after launch.",
+  },
+  {
+    question: "Can I request updates later?",
+    answer: "Absolutely. We’re here for future updates, changes, and performance improvements.",
+  },
+  {
+    question: "Will I see marketing results?",
+    answer: "Our SEO and ad strategies are performance-driven, aiming to increase traffic, leads, and conversions.",
+  }
+];
+
 
 
 export const powerPackage = [
-    { service: "Web Development", icon: "🌐" },
-    { service: "App Development", icon: "📱" },
-    { service: "SEO (Search Engine Optimization)", icon: "🔍" },
-    { service: "Google Ads (PPC)", icon: "📊" },
-    { service: "Meta Ads (Facebook & Instagram)", icon: "📣" },
-    { service: "Graphics Design", icon: "🎨" },
-    { service: "Digital Strategy Consultation", icon: "🧠" },
-    { service: "Monthly Performance Reports", icon: "📈" },
-    { service: "Technical Support & Maintenance", icon: "🛠️" }
+  { service: "🌐 Web Development Services" },
+  { service: "📱 Mobile App Development" },
+  { service: "🔍 SEO (Search Engine Optimization)" },
+  { service: "📊 Google Ads Management (PPC)" },
+  { service: "📣 Meta Ads – Facebook & Instagram" },
+  { service: "🎨 Creative Graphics Design" },
+  { service: "🧠 Digital Strategy Consulting" },
+  { service: "📈 Monthly Marketing Performance Reports" },
+  { service: "🛠️ Technical Support & Website Maintenance" },
+  { service: "✍️ Content Creation & Copywriting" },
+  { service: "🎬 Video Editing & Reels Creation" }
 ];
+

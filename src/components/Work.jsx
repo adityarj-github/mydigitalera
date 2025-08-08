@@ -14,9 +14,10 @@ const Work = () => {
             >
                 <div className="text-center mb-12">
                     <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight">
-                        Explore how we’ve helped <br />
-                        <span className="text-[#ff4432]">businesses</span> like yours grow through a perfect website.
+                        Grow your business with <span className="text-[#ff4432]">SEO-ready</span> websites by <span className="text-[#ff4432]">MyDigitalEra</span>.
                     </h1>
+
+
                 </div>
 
                 {/* Horizontal Scroll Container */}

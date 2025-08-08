@@ -1,5 +1,5 @@
 import React from 'react';
-import { testimonialsData } from '../assets/assets';
+import { Testimonialsdata } from '../assets/assets';
 import { motion } from 'framer-motion';
 
 const Testimonials = () => {
@@ -18,7 +18,7 @@ const Testimonials = () => {
         <div className='overflow-hidden h-80 mt-5'>
           <div className='animate-marquee'>
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7'>
-              {testimonialsData.map((item, index) => (
+              {Testimonialsdata.map((item, index) => (
                 <div key={index} className='testimonial-item max-w-[300px] rounded-xl flex flex-col items-start border-[0.5px] border-[#686868] p-3 mb-4'>
                   <div className='flex items-center gap-3'>
                     {/* <img className='w-10 h-10' src={item.image} alt="" /> */}
@@ -32,7 +32,7 @@ const Testimonials = () => {
                 </div>
               ))}
               {/* Duplicate the data to create a seamless loop */}
-              {testimonialsData.map((item, index) => (
+              {Testimonialsdata.map((item, index) => (
                 <div key={`duplicate-${index}`} className='testimonial-item max-w-[300px] rounded-xl flex flex-col items-start border-[0.5px] border-[#686868] p-3 mb-4'>
                   <div className='flex items-center gap-3'>
                     {/* <img className='w-10 h-10' src={item.image} alt="" /> */}
