@@ -31,7 +31,7 @@ const Footer = () => {
                 {/* Second Row */}
                 <div className='flex gap-5 items-start flex-col'>
                     <div className='flex flex-col items-start justify-center'>
-                        <a href="" className='underline'>Home</a>
+                        <a href="" className='underline font-semibold'>Home</a>
                         <a href="https://forms.gle/WafzdGKephQc5ci78">Career</a>
                         <a href="https://forms.gle/KwcEmVWxmbDgZZrb9">Contact Us</a>
                     </div>
