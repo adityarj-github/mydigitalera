@@ -9,6 +9,7 @@ body {
     background: #121212;
     color: white;
     font-family: Inter, sans-serif;
+    cursor: none;
 }
 
 /* Hide horizontal scrollbar across all major browsers */
